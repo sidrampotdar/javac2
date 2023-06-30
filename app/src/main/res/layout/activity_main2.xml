@@ -1,0 +1,138 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:clipToPadding="false"
+    android:orientation="vertical"
+
+    tools:context=".MainActivity">
+
+    <!--TextView1 widget inside ViewGroup1-->
+
+
+    <!--TextView2 widget inside ViewGroup1-->
+
+    <!--ViewGroup2-->
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="62dp"
+        android:clipToPadding="false">
+
+        <!--EditText1 widget inside ViewGroup2-->
+
+        <!--EditText2 widget inside ViewGroup2-->
+
+        <View
+            android:id="@+id/coloredStrip"
+            android:layout_width="match_parent"
+            android:layout_height="65dp"
+            android:background="#2196F3"/>
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="20dp"
+            android:background="#2196F3"
+            android:src="@drawable/menu"
+></ImageButton>
+        <TextView
+            android:layout_marginTop="5dp"
+            android:layout_width="120dp"
+            android:layout_height="60dp"
+            android:layout_marginStart="80dp"
+            android:layout_marginEnd="50dp"
+            android:text="Sign Up"
+            android:textColor="@color/white"
+            android:textSize="35sp"></TextView>
+        />
+
+
+
+    </RelativeLayout><!--End of ViewGroup2-->
+
+<!--    &lt;!&ndash;Button widget inside ViewGroup2&ndash;&gt;-->
+<!--    <EditText-->
+<!--        android:id="@+id/editText2"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_alignParentTop="true"-->
+<!--        android:layout_marginTop="45dp"-->
+<!--        android:hint="Enter last name" />-->
+
+<!--    <Button-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_below="@id/editText2"-->
+<!--        android:layout_alignParentEnd="true"-->
+<!--        android:text="Submit" />-->
+    
+    
+    
+    <EditText
+        android:background="@color/white"
+        android:layout_marginStart="20sp"
+        android:layout_marginEnd="20sp"
+        android:layout_marginTop="200sp"
+        android:layout_width="match_parent"
+        android:layout_height="50sp"
+        android:hint=" Full Name"
+
+></EditText>
+    <EditText
+        android:background="@color/white"
+        android:layout_marginStart="20sp"
+        android:layout_marginEnd="20sp"
+        android:layout_marginTop="16sp"
+        android:layout_width="match_parent"
+        android:layout_height="50sp"
+        android:hint=" User Name"
+
+        ></EditText>
+    <EditText
+        android:layout_marginStart="20sp"
+        android:layout_marginEnd="20sp"
+        android:layout_marginTop="16sp"
+        android:layout_width="match_parent"
+        android:layout_height="50sp"
+        android:hint=" Email"
+        android:background="@color/white"
+
+        ></EditText>
+    <EditText
+        android:layout_marginStart="20sp"
+        android:layout_marginEnd="20sp"
+        android:layout_marginTop="16sp"
+        android:layout_width="match_parent"
+        android:background="@color/white"
+        android:layout_height="50sp"
+        android:hint="   Password"
+
+        ></EditText>
+    <EditText
+        android:layout_marginStart="20sp"
+        android:layout_marginEnd="20sp"
+        android:layout_marginTop="16sp"
+        android:layout_width="match_parent"
+        android:layout_height="50sp"
+        android:hint="  Comfirm Password"
+        android:background="@color/white"
+
+        ></EditText>
+<!--    <EditText-->
+<!--        android:id="@+id/editText1"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:background="@drawable/edit_border"-->
+<!--        android:hint="Enter data" />-->
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="60sp"
+        android:layout_margin="40sp"
+        android:background="#FF2196F3"
+></Button>
+
+
+</LinearLayout>
